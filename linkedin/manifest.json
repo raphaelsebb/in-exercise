@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Get linkedin",
+  "description": "Get users's name",
+  "version": "1.1",
+  "icons": {
+    "128": "128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*"
+      ],
+      "js": [
+        "js/jquery-3.2.0.min.js",
+        "js/app.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action": {
+    "default_icon": "128.png",
+    "default_popup": "popup.html"
+  }
+}
