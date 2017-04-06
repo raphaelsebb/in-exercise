@@ -1,7 +1,7 @@
 {
   "name": "linkedin_server",
   "version": "1.0.0",
-  "description": "",
+  "description": "get linkedin profile",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

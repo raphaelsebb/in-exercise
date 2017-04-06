@@ -24,7 +24,7 @@ module.exports = function(url){
         }
 
         fs.writeFile('./output.json', JSON.stringify(json, null, 4), function(err, res){
-          console.log('File output.json successfully written! '+json.name);
+          console.log('File output.json successfully written! ' + json.name);
         });
     });
 }
