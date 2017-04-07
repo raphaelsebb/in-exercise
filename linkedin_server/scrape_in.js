@@ -14,7 +14,7 @@ module.exports = function(url){
                 name : ""
             };
 
-            var name_selector = "h1";
+            var name_selector = "#ember7192 > div.pv-top-card-section__body > div.pv-top-card-section__information.mt3 > h1";
 
             $(name_selector).each(function(){
                 var data = $(name_selector);
